@@ -234,7 +234,7 @@ defmodule LiveMotion do
   attr :rest, :global,
     doc: " Additional HTML attributes to add to the tag, ensuring proper escaping."
 
-  slot :inner_block, default: nil
+  slot :inner_block
 
   def motion(assigns) do
     initial =
